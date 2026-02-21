@@ -2,7 +2,7 @@ name: Omkar Mathdevaru
 
 on:
   push:
-  branches: [main]
+  branches: [ main ]
 
   jobs:
    demo:

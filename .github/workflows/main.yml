@@ -2,13 +2,13 @@ name: Omkar Mathdevaru
 
 on:
   push:
-  branches: [ main ]
+     branches: [ main ]
 
-  jobs:
-   demo:
-    runs-on: ubuntu-latest
+jobs:
+ demo:
+  runs-on: ubuntu-latest
 
-    steps:
+  steps:
     - name: Greeting
-    run: echo "Hello From Apun"
+       run: echo "Hello From Apun"
     
